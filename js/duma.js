@@ -20,18 +20,17 @@ function getDate() {
     var monthIndex = date.getMonth();
     var year = date.getFullYear();
 
-    var marker;
+    var marker = "th";
     if (day == 1 || day == 21) {
         marker = "st";
     } else if (day == 2 || day == 22) {
         marker = "nd";
     } else if (day == 3 || day == 23) {
         marker = "rd";
-    } else {
-        marker = "th";
     }
 
     document.getElementById('date').innerHTML = monthNames[monthIndex] + ' ' + day + marker + ' ' + year;
+    // document.getElementByClassName('wrapper').innerHTML = monthNames[monthIndex] + ' ' + day + marker + ' ' + year;
 }
 
 /*******************************************************************

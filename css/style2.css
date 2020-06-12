@@ -136,13 +136,13 @@ h1{
   margin-bottom: 20px;
   }
  
-  .wrapper{
+  /* .wrapper{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas:  
     "top__section"
     "content__section"
-  }
+  } */
   
 .top__section{
   grid-area:top__section;

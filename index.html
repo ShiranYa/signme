@@ -9,18 +9,20 @@
   <script src="https://kit.fontawesome.com/df1fed884a.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="css/venobox.css" media="screen" />
 </head>
-
+<!-- TODO: change all id and classes names to be lower case -->
 <!--HEADER AND INTRO-->
 <body>
-  <div class="wrapper">
-    <section class="top__section">
-      <section id="Intro">
+   
+      <section class="top__section"> 
+      <!-- <section id="Intro">
         <h1 >Intro</h1>
-      </section>
+      </section> -->
+      <div id= "Intro"></div>
+
     <!--header+first-page-->
     <div class="header">
     <div class="logo" >
-      <a href="C:/Users/forna/Desktop/signs-mastero/index.html#Intro">
+      <a href="#Intro">
         <img src="images/0.jpg" alt="sign laguage" width="200px" length="100px"></a>
     </div><!--END LOGO-->
     </div><!--END HEADER-->
@@ -33,9 +35,9 @@
       <li><a href="#Game">Game</a></li>
       <li><a href="#Contact">Contact</a></li>
     </ul>
-  </div><!--END WRAPPER-->
   </nav>   <!--?-->
     </section><!--END top section-->
+  
 
 
     <!--second-page-->
@@ -45,7 +47,7 @@
       <div class="playlist">
         <div class="videos">
 
-                        <div class="video" style="background-image: url(images/VIDEO01.jpg)">
+                        <!-- <div class="video" style="background-image: url(images/VIDEO01.jpg)">
                         <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/OW3CdpmD3w4" data-gall="myGallery">
                         <i class="fas fa-play-circle"></i></a>
                         </div>
@@ -103,7 +105,7 @@
                         <div class="video" style="background-image: url(images/VIDEO12.jpg)">
                         <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/OW3CdpmD3w4" data-gall="myGallery">
                         <i class="fas fa-play-circle"></i></a>
-                      </div>
+                      </div> -->
           
           </div><!--END videos-->
         </div><!--END playlist-->
@@ -162,7 +164,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/duma.js"></script>
   <script type="text/javascript" src="js/quiz.js"></script>
-  <script> 
+  <script type="text/javascript" src="js/dictionaryDom.js"></script>
+   
     $(document).ready(function(){
       $('.venobox').venobox({
       closeColor: '#f4f4f4',
